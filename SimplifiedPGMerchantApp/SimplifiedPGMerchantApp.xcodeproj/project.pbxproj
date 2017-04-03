@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274E6FEE1AF2099000D3C4C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274E6FED1AF2099000D3C4C3 /* main.m */; };
+		274E6FF11AF2099000D3C4C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 274E6FF01AF2099000D3C4C3 /* AppDelegate.m */; };
+		274E6FF41AF2099000D3C4C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274E6FF31AF2099000D3C4C3 /* ViewController.m */; };
+		274E6FF71AF2099000D3C4C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E6FF51AF2099000D3C4C3 /* Main.storyboard */; };
+		274E6FF91AF2099000D3C4C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274E6FF81AF2099000D3C4C3 /* Images.xcassets */; };
+		274E6FFC1AF2099000D3C4C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 274E6FFA1AF2099000D3C4C3 /* LaunchScreen.xib */; };
+		274E70081AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274E70071AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests.m */; };
+		274E701A1AF20B9D00D3C4C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274E70191AF20B9D00D3C4C3 /* SystemConfiguration.framework */; };
+		750FE6E51E8CD7EB00B439D6 /* libPaymentsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 750FE6E41E8CD7EB00B439D6 /* libPaymentsSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274E70021AF2099000D3C4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274E6FE01AF2098F00D3C4C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274E6FE71AF2098F00D3C4C3;
+			remoteInfo = SimplifiedPGMerchantApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		274E6FE81AF2098F00D3C4C3 /* SimplifiedPGMerchantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplifiedPGMerchantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		274E6FEC1AF2098F00D3C4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274E6FED1AF2099000D3C4C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		274E6FEF1AF2099000D3C4C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		274E6FF01AF2099000D3C4C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		274E6FF21AF2099000D3C4C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		274E6FF31AF2099000D3C4C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		274E6FF61AF2099000D3C4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		274E6FF81AF2099000D3C4C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		274E6FFB1AF2099000D3C4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		274E70011AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplifiedPGMerchantAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		274E70061AF2099000D3C4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274E70071AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplifiedPGMerchantAppTests.m; sourceTree = "<group>"; };
+		274E70141AF20AA600D3C4C3 /* PaymentsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentsSDK.h; sourceTree = "<group>"; };
+		274E70151AF20AA600D3C4C3 /* PGMerchantConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMerchantConfiguration.h; sourceTree = "<group>"; };
+		274E70161AF20AA600D3C4C3 /* PGOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGOrder.h; sourceTree = "<group>"; };
+		274E70171AF20AA600D3C4C3 /* PGServerEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGServerEnvironment.h; sourceTree = "<group>"; };
+		274E70181AF20AA600D3C4C3 /* PGTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGTransactionViewController.h; sourceTree = "<group>"; };
+		274E70191AF20B9D00D3C4C3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		750FE6E41E8CD7EB00B439D6 /* libPaymentsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentsSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274E6FE51AF2098F00D3C4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274E701A1AF20B9D00D3C4C3 /* SystemConfiguration.framework in Frameworks */,
+				750FE6E51E8CD7EB00B439D6 /* libPaymentsSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274E6FFE1AF2099000D3C4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274E6FDF1AF2098F00D3C4C3 = {
+			isa = PBXGroup;
+			children = (
+				274E6FEA1AF2098F00D3C4C3 /* SimplifiedPGMerchantApp */,
+				274E70041AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests */,
+				274E6FE91AF2098F00D3C4C3 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		274E6FE91AF2098F00D3C4C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274E6FE81AF2098F00D3C4C3 /* SimplifiedPGMerchantApp.app */,
+				274E70011AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274E6FEA1AF2098F00D3C4C3 /* SimplifiedPGMerchantApp */ = {
+			isa = PBXGroup;
+			children = (
+				750FE6E41E8CD7EB00B439D6 /* libPaymentsSDK.a */,
+				274E70191AF20B9D00D3C4C3 /* SystemConfiguration.framework */,
+				274E70131AF20AA600D3C4C3 /* include */,
+				274E6FEF1AF2099000D3C4C3 /* AppDelegate.h */,
+				274E6FF01AF2099000D3C4C3 /* AppDelegate.m */,
+				274E6FF21AF2099000D3C4C3 /* ViewController.h */,
+				274E6FF31AF2099000D3C4C3 /* ViewController.m */,
+				274E6FF51AF2099000D3C4C3 /* Main.storyboard */,
+				274E6FF81AF2099000D3C4C3 /* Images.xcassets */,
+				274E6FFA1AF2099000D3C4C3 /* LaunchScreen.xib */,
+				274E6FEB1AF2098F00D3C4C3 /* Supporting Files */,
+			);
+			path = SimplifiedPGMerchantApp;
+			sourceTree = "<group>";
+		};
+		274E6FEB1AF2098F00D3C4C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274E6FEC1AF2098F00D3C4C3 /* Info.plist */,
+				274E6FED1AF2099000D3C4C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274E70041AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				274E70071AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests.m */,
+				274E70051AF2099000D3C4C3 /* Supporting Files */,
+			);
+			path = SimplifiedPGMerchantAppTests;
+			sourceTree = "<group>";
+		};
+		274E70051AF2099000D3C4C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274E70061AF2099000D3C4C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274E70131AF20AA600D3C4C3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				274E70141AF20AA600D3C4C3 /* PaymentsSDK.h */,
+				274E70151AF20AA600D3C4C3 /* PGMerchantConfiguration.h */,
+				274E70161AF20AA600D3C4C3 /* PGOrder.h */,
+				274E70171AF20AA600D3C4C3 /* PGServerEnvironment.h */,
+				274E70181AF20AA600D3C4C3 /* PGTransactionViewController.h */,
+			);
+			name = include;
+			path = PaymentsSDK/include;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274E6FE71AF2098F00D3C4C3 /* SimplifiedPGMerchantApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274E700B1AF2099000D3C4C3 /* Build configuration list for PBXNativeTarget "SimplifiedPGMerchantApp" */;
+			buildPhases = (
+				274E6FE41AF2098F00D3C4C3 /* Sources */,
+				274E6FE51AF2098F00D3C4C3 /* Frameworks */,
+				274E6FE61AF2098F00D3C4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplifiedPGMerchantApp;
+			productName = SimplifiedPGMerchantApp;
+			productReference = 274E6FE81AF2098F00D3C4C3 /* SimplifiedPGMerchantApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		274E70001AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274E700E1AF2099000D3C4C3 /* Build configuration list for PBXNativeTarget "SimplifiedPGMerchantAppTests" */;
+			buildPhases = (
+				274E6FFD1AF2099000D3C4C3 /* Sources */,
+				274E6FFE1AF2099000D3C4C3 /* Frameworks */,
+				274E6FFF1AF2099000D3C4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274E70031AF2099000D3C4C3 /* PBXTargetDependency */,
+			);
+			name = SimplifiedPGMerchantAppTests;
+			productName = SimplifiedPGMerchantAppTests;
+			productReference = 274E70011AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274E6FE01AF2098F00D3C4C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Paytm;
+				TargetAttributes = {
+					274E6FE71AF2098F00D3C4C3 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = G8K3867WMG;
+					};
+					274E70001AF2099000D3C4C3 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 274E6FE71AF2098F00D3C4C3;
+					};
+				};
+			};
+			buildConfigurationList = 274E6FE31AF2098F00D3C4C3 /* Build configuration list for PBXProject "SimplifiedPGMerchantApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 274E6FDF1AF2098F00D3C4C3;
+			productRefGroup = 274E6FE91AF2098F00D3C4C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274E6FE71AF2098F00D3C4C3 /* SimplifiedPGMerchantApp */,
+				274E70001AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274E6FE61AF2098F00D3C4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274E6FF71AF2099000D3C4C3 /* Main.storyboard in Resources */,
+				274E6FFC1AF2099000D3C4C3 /* LaunchScreen.xib in Resources */,
+				274E6FF91AF2099000D3C4C3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274E6FFF1AF2099000D3C4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274E6FE41AF2098F00D3C4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274E6FF41AF2099000D3C4C3 /* ViewController.m in Sources */,
+				274E6FF11AF2099000D3C4C3 /* AppDelegate.m in Sources */,
+				274E6FEE1AF2099000D3C4C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274E6FFD1AF2099000D3C4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274E70081AF2099000D3C4C3 /* SimplifiedPGMerchantAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274E70031AF2099000D3C4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274E6FE71AF2098F00D3C4C3 /* SimplifiedPGMerchantApp */;
+			targetProxy = 274E70021AF2099000D3C4C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		274E6FF51AF2099000D3C4C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274E6FF61AF2099000D3C4C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		274E6FFA1AF2099000D3C4C3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274E6FFB1AF2099000D3C4C3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		274E70091AF2099000D3C4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		274E700A1AF2099000D3C4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274E700C1AF2099000D3C4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8K3867WMG;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SimplifiedPGMerchantApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaymentsSDK",
+					"$(PROJECT_DIR)/SimplifiedPGMerchantApp",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytm.SimplifiedPGMerchantApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		274E700D1AF2099000D3C4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8K3867WMG;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SimplifiedPGMerchantApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaymentsSDK",
+					"$(PROJECT_DIR)/SimplifiedPGMerchantApp",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytm.SimplifiedPGMerchantApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		274E700F1AF2099000D3C4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimplifiedPGMerchantAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robosoft.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplifiedPGMerchantApp.app/SimplifiedPGMerchantApp";
+			};
+			name = Debug;
+		};
+		274E70101AF2099000D3C4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimplifiedPGMerchantAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robosoft.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplifiedPGMerchantApp.app/SimplifiedPGMerchantApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274E6FE31AF2098F00D3C4C3 /* Build configuration list for PBXProject "SimplifiedPGMerchantApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274E70091AF2099000D3C4C3 /* Debug */,
+				274E700A1AF2099000D3C4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274E700B1AF2099000D3C4C3 /* Build configuration list for PBXNativeTarget "SimplifiedPGMerchantApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274E700C1AF2099000D3C4C3 /* Debug */,
+				274E700D1AF2099000D3C4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274E700E1AF2099000D3C4C3 /* Build configuration list for PBXNativeTarget "SimplifiedPGMerchantAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274E700F1AF2099000D3C4C3 /* Debug */,
+				274E70101AF2099000D3C4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 274E6FE01AF2098F00D3C4C3 /* Project object */;
+}
