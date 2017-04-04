@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SampleMerchantApp</string>
+    <string name="order_id">Order Id : </string>
+    <string name="customer_id">Customer Id : </string>
+    <string name="transaction_amount">Transaction Amount : </string>
+    <string name="channel_id">Channel Id : </string>
+    <string name="industry_type_id">Industry Type Id : </string>
+    <string name="website">Website : </string>
+    <string name="theme">Theme : </string>
+    <string name="cust_email_id">Email Id : </string>
+    <string name="cust_mobile_no">Mobile Number : </string>
+    <string name="merchant_id">Merchant Id : </string>
+    <string name="checksum_generation_url">Checksum Generation URL : </string>
+    <string name="checksum_verification_url">Checksum Verification URL : </string>
+    <string name="start_transaction">Start Transaction</string>
+    <string name="sample_order_id">ORDER</string>
+    <string name="sample_customer_id">CUST23657</string>
+    <string name="sample_transaction_amount">1</string>
+    <string name="sample_channel_id">WAP</string>
+    <string name="sample_industry_type_id">Retail</string>
+    <string name="sample_website">worldpressplg</string>
+    <string name="sample_theme">merchant</string>
+    <string name="sample_cust_email_id">abc@gmail.com</string>
+    <string name="sample_cust_mobile_no">123</string>
+    <string name="sample_merchant_id_staging">WorldP64425807474247</string>
+    <string name="sample_checksum_generation_url">https://pguat.paytm.com/merchant-chksum/ChecksumGenerator</string>
+    <string name="sample_checksum_verification_url">https://pguat.paytm.com/merchant-chksum/ValidateChksum</string>
+</resources>

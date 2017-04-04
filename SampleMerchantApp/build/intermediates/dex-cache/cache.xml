@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fabee5cdd9a7273363198aadcd44b44c84f29897">
+        <dex dex="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8556e8c5b80eb201edd99d3851b96391af40fb1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/libs/PGSDK_V1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="555581f3271e0c138c2de0f804952ac0d26f0bd6">
+        <dex dex="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/PGSDK_V1.0_38d97af186c0caed11118d103949c37334223f38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6b8263934e9c28c765d9f87aa2a0961d08b01178/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/deependra_testing_team/Documents/Updated App Kits/Android/SampleMerchantApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/deependra_testing_team/Documents/Updated App Kits/Android/SampleMerchantApp/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jitendrasingh/development/pgsdk-webbased/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/jitendrasingh/development/pgsdk-webbased/pgsdk-web-based-android/SampleMerchantApp/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    }
+]

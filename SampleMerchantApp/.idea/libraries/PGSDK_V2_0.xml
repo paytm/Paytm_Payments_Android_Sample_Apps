@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PGSDK_V2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/PGSDK_V2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

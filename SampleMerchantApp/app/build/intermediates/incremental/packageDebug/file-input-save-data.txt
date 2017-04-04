@@ -1,0 +1,21 @@
+#Internal package file, do not edit.
+#Thu Mar 30 16:25:59 IST 2017
+2.base=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6b8263934e9c28c765d9f87aa2a0961d08b01178
+5.file=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+5.set=ANDROID_RESOURCE
+3.base=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/resources-debug.ap_
+2.set=DEX
+4.base=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/resources-debug.ap_
+count=6
+0.file=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.base=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+1.file=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8556e8c5b80eb201edd99d3851b96391af40fb1c/classes.dex
+1.set=DEX
+2.file=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6b8263934e9c28c765d9f87aa2a0961d08b01178/classes.dex
+0.base=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/resources-debug.ap_/res/layout/merchantapp.xml
+3.set=ANDROID_RESOURCE
+1.base=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8556e8c5b80eb201edd99d3851b96391af40fb1c
+4.file=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.set=ANDROID_RESOURCE

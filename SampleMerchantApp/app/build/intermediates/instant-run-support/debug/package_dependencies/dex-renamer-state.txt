@@ -1,0 +1,13 @@
+#Thu Mar 30 16:25:59 IST 2017
+renamed.3=classes3.dex
+renamed.2=classes4.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_31a90b5f984ecfc58a280a35a7f83e94827288d2
+base.2=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/PGSDK_V1.0_38d97af186c0caed11118d103949c37334223f38
+base.1=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_2408efd374741932ffe6c2ab9175f6dc57b7330f
+base.0=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_812d6775348e3b581ab085ec17f57b6aa82dfc87
+file.3=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_31a90b5f984ecfc58a280a35a7f83e94827288d2/classes.dex
+file.2=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/PGSDK_V1.0_38d97af186c0caed11118d103949c37334223f38/classes.dex
+file.1=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_2408efd374741932ffe6c2ab9175f6dc57b7330f/classes.dex
+file.0=/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_812d6775348e3b581ab085ec17f57b6aa82dfc87/classes.dex
