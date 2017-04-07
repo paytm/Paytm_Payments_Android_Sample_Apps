@@ -45,6 +45,32 @@
         ]
     },
     {
+        "outputFile": "/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 309
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
         "map": [
             {

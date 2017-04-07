@@ -14,21 +14,7 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int channel_id=0x7f060006;
-        public static final int checksum_generation=0x7f06000a;
-        public static final int checksum_generation_url=0x7f06000b;
-        public static final int checksum_verification=0x7f06000c;
-        public static final int checksum_verification_url=0x7f06000d;
-        public static final int cust_email_id=0x7f060003;
-        public static final int cust_mobile_no=0x7f060004;
-        public static final int customer_id=0x7f060001;
-        public static final int industry_type_id=0x7f060007;
-        public static final int merchant_id=0x7f060005;
-        public static final int order_id=0x7f060000;
-        public static final int start_transaction=0x7f06000e;
-        public static final int theme=0x7f060009;
-        public static final int transaction_amount=0x7f060002;
-        public static final int website=0x7f060008;
+        public static final int start_transaction=0x7f060000;
     }
     public static final class layout {
         public static final int merchantapp=0x7f030000;

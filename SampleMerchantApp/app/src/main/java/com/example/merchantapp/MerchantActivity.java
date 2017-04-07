@@ -27,7 +27,7 @@ public class MerchantActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.merchantapp);
-		initOrderId();
+		//initOrderId();
 		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 	}
 	
@@ -35,36 +35,26 @@ public class MerchantActivity extends Activity {
 	@Override
 	protected void onStart(){
 		super.onStart();
-		initOrderId();
+		//initOrderId();
 		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 	}
 	
 
-	private void initOrderId() {
+	/*private void initOrderId() {
 		Random r = new Random(System.currentTimeMillis());
 		String orderId = "ORDER" + (1 + r.nextInt(2)) * 10000
 				+ r.nextInt(10000);
 		EditText orderIdEditText = (EditText) findViewById(R.id.order_id);
 		orderIdEditText.setText(orderId);
-	}
+	}*/
 
 	public void onStartTransaction(View view) {
 		PaytmPGService Service = PaytmPGService.getStagingService();
+
+
+		//Kindly create complete Map and checksum on your server side and then put it here in paramMap.
+
 		Map<String, String> paramMap = new HashMap<String, String>();
-
-		// these are mandatory parameters
-		
-		/*paramMap.put("ORDER_ID", ((EditText) findViewById(R.id.order_id)).getText().toString());
-		paramMap.put("MID", ((EditText) findViewById(R.id.merchant_id)).getText().toString());
-		paramMap.put("CUST_ID", ((EditText) findViewById(R.id.customer_id)).getText().toString());
-		paramMap.put("CHANNEL_ID", ((EditText) findViewById(R.id.channel_id)).getText().toString());
-		paramMap.put("INDUSTRY_TYPE_ID", ((EditText) findViewById(R.id.industry_type_id)).getText().toString());
-		paramMap.put("WEBSITE", ((EditText) findViewById(R.id.website)).getText().toString());
-		paramMap.put("TXN_AMOUNT", ((EditText) findViewById(R.id.transaction_amount)).getText().toString());
-		paramMap.put("THEME", ((EditText) findViewById(R.id.theme)).getText().toString());
-		paramMap.put("EMAIL", ((EditText) findViewById(R.id.cust_email_id)).getText().toString());
-		paramMap.put("MOBILE_NO", ((EditText) findViewById(R.id.cust_mobile_no)).getText().toString());*/
-
 		paramMap.put("MID" , "WorldP64425807474247");
 		paramMap.put("ORDER_ID" , "TestMerchant000111007");
 		paramMap.put("CUST_ID" , "mohit.aggarwal@paytm.com");
@@ -76,9 +66,6 @@ public class MerchantActivity extends Activity {
 		paramMap.put("CHECKSUMHASH" , "w2QDRMgp1/BNdEnJEAPCIOmNgQvsi+BhpqijfM9KvFfRiPmGSt3Ddzw+oTaGCLneJwxFFq5mqTMwJXdQE2EzK4px2xruDqKZjHupz9yXev4=");
 		PaytmOrder Order = new PaytmOrder(paramMap);
 
-		/*PaytmMerchant Merchant = new PaytmMerchant(
-				"https://pguat.paytm.com/paytmchecksum/paytmCheckSumGenerator.jsp",
-				"https://pguat.paytm.com/paytmchecksum/paytmCheckSumVerify.jsp");*/
 
 		Service.initialize(Order, null);
 

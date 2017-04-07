@@ -8,6 +8,10 @@
         "source": "/Users/deependra_testing_team/Documents/Updated App Kits/Android/SampleMerchantApp/app/src/main/res/layout/merchantapp.xml"
     },
     {
+        "merged": "/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/res/merged/debug/layout/merchantapp.xml",
+        "source": "/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/src/main/res/layout/merchantapp.xml"
+    },
+    {
         "merged": "/Users/jitendrasingh/development/pgsdk-webbased/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/merged/debug/layout/merchantapp.xml",
         "source": "/Users/jitendrasingh/development/pgsdk-webbased/pgsdk-web-based-android/SampleMerchantApp/app/src/main/res/layout/merchantapp.xml"
     }

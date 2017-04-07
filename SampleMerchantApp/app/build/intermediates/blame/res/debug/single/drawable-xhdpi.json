@@ -4,6 +4,10 @@
         "source": "/Users/deependra_testing_team/Documents/Updated App Kits/Android/SampleMerchantApp/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
         "source": "/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },

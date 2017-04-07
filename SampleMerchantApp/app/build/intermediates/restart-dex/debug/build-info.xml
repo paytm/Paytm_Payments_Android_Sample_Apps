@@ -6,49 +6,49 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490871353445"
+    timestamp="1491553185718"
     token="-7060812043477887689"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="518" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="109" />
+        duration="0" />
     <task
         name="verifier"
-        duration="25" />
+        duration="0" />
 
     <artifact
-        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
     <artifact
         location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
         location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
         location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -57,39 +57,72 @@
         location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
+        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1490871353445"
+        timestamp="1491553185718"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -98,8 +131,41 @@
             location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/deependra_testing_team/Documents/Appkits/android/UpdatedSDKWithoutGCandVC/pgsdk-web-based-android/SampleMerchantApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
