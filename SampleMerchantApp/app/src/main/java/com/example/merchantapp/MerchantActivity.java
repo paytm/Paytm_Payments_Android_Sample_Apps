@@ -62,7 +62,7 @@ public class MerchantActivity extends Activity {
 		paramMap.put("CHANNEL_ID" , "WAP");
 		paramMap.put("TXN_AMOUNT" , "1");
 		paramMap.put("WEBSITE" , "worldpressplg");
-		paramMap.put("CALLBACK_URL" , "https://pguat.paytm.com/paytmchecksum/paytmCheckSumVerify.jsp");
+		paramMap.put("CALLBACK_URL" , "https://pguat.paytm.com/paytmchecksum/paytmCallback.jsp");
 		paramMap.put("CHECKSUMHASH" , "w2QDRMgp1/BNdEnJEAPCIOmNgQvsi+BhpqijfM9KvFfRiPmGSt3Ddzw+oTaGCLneJwxFFq5mqTMwJXdQE2EzK4px2xruDqKZjHupz9yXev4=");
 		PaytmOrder Order = new PaytmOrder(paramMap);
 
