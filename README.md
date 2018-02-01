@@ -31,3 +31,17 @@ https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_DotNet
 
 # Transaction Status API
 http://paywithpaytm.com/developer/paytm_api_doc?target=txn-status-api
+
+Important Note :
+
+We are not supporting PgSdk jar from now onwards. Kindly use the below mentioned Gradle dependency for the same.
+
+Gradle Dependency:
+
+Command : compile 'com.paytm.pgsdk:pgsdk:1.0.6'
+
+Note:
+
+1. I you have the Jar file please Remove the jar file and jar dependency from the project.
+
+2. Kindly change the import statements accordingly.
