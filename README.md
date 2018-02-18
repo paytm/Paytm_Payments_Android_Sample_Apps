@@ -40,6 +40,8 @@ Gradle Dependency:
 
 Command : compile 'com.paytm.pgsdk:pgsdk:1.0.8'
 
+beta-version : compile 'com.paytm.pgsdk:pgsdk:1.0.9'
+
 Note:
 
 1. I you have the Jar file please Remove the jar file and jar dependency from the project.
