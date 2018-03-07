@@ -38,9 +38,9 @@ We are not supporting PgSdk jar from now onwards. Kindly use the below mentioned
 
 Gradle Dependency:
 
-Command : compile 'com.paytm.pgsdk:pgsdk:1.0.8'
+Command : compile 'com.paytm.pgsdk:pgsdk:1.0.9'
 
-beta-version : compile 'com.paytm.pgsdk:pgsdk:1.0.9'
+beta-version : compile 'com.paytm.pgsdk:pgsdk:1.0.10'
 
 Note:
 
