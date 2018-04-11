@@ -1,7 +1,0 @@
-#Fri Apr 07 13:48:49 IST 2017
-base.0=/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_71f94a1f68187604b0b0c52e1b0520f6d85c631a
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9b8a804c7a02cf3a8245f13545aa21390ac46a7f/classes.dex
-base.1=/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9b8a804c7a02cf3a8245f13545aa21390ac46a7f
-file.0=/Users/deependra_testing_team/Documents/GITHUB-PaytmPayments/Paytm_Android_App_Kit/SampleMerchantApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_71f94a1f68187604b0b0c52e1b0520f6d85c631a/classes.dex
