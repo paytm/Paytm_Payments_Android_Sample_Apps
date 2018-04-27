@@ -38,7 +38,7 @@ We are not supporting PgSdk jar from now onwards. Kindly use the below mentioned
 
 Gradle Dependency:
 
-Command : compile 'com.paytm:pgplussdk:1.1.2'
+Command : compile 'com.paytm:pgplussdk:1.1.3'
 
 Note:
 
