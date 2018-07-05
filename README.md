@@ -47,7 +47,7 @@ PaytmPGService.getProductionService() will return the Service Object pointing
 	#### paramMap.put( "CHANNEL_ID" , "WAP");
 	#### paramMap.put( "TXN_AMOUNT" , "1");
 	#### paramMap.put( "WEBSITE" , "PAYTM_WEBSITE");
-	#### paramMap.put( "CALLBACK_URL" , "https://securegw.paytm.in/theia/paytmCallback");
+	#### paramMap.put( "https://securegw.paytm.in/theia/paytmCallback?ORDER_ID=ORDER0000000001");
 	#### paramMap.put( "EMAIL" , "abc@gmail.com");
 	#### paramMap.put( "MOBILE_NO" , "9999999999");
 	#### paramMap.put( "CHECKSUMHASH" , "w2QDRMgp1234567JEAPCIOmNgQvsi+BhpqijfM9KvFfRiPmGSt3Ddzw+oTaGCLneJwxFFq5mqTMwJXdQE2EzK4px2xruDqKZjHupz9yXev4=")
@@ -119,7 +119,7 @@ ANDROID
 		#### paramMap.put( "CHANNEL_ID" , "WAP");
 		#### paramMap.put( "TXN_AMOUNT" , "1");
 		#### paramMap.put( "WEBSITE" , "PAYTM_WEBSITE");
-		#### paramMap.put( "CALLBACK_URL" , "https://securegw.paytm.in/theia/paytmCallback");
+		#### paramMap.put( "CALLBACK_URL" , "https://securegw.paytm.in/theia/paytmCallback?ORDER_ID=ORDER0000000001");
 		#### paramMap.put( "EMAIL" , "abc@gmail.com");
 		#### paramMap.put( "MOBILE_NO" , "9999999999");
 		#### paramMap.put( "CHECKSUMHASH" , "w2QDRMgp1234567JEAPCIOmNgQvsi+BhpqijfM9KvFfRiPmGSt3Ddzw+oTaGCLneJwxFFq5mqTMwJXdQE2EzK4px2xruDqKZjHupz9yXev4=");
