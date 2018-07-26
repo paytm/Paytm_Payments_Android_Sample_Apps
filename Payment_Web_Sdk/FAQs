@@ -1,0 +1,5 @@
+1. What if I am geting below mentioned Error while using Jar File and ProGuard file.
+   Error : "Uncaught TypeError: window.HTMLOUT.processResponse is not a function", source: https://securegw.paytm.in/theia/paytmCallback"
+   
+Sol. Below Mentioned lines need to be added in progaurd-project.txt file:
+     -keepclassmembers class com.paytm.pgsdk.PaytmWebView$PaytmJavaScriptInterface {   public protected private *;    } 

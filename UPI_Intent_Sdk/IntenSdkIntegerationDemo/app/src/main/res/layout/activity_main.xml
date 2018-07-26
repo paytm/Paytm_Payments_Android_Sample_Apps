@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtPayeeVpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Payee Vpa*"
+                android:text="prince@paytm" />
+
+            <EditText
+                android:id="@+id/edtPayeeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Payee Name*"
+                android:text="Prince" />
+
+
+            <EditText
+                android:id="@+id/edtMerchantCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Merchant Code*"
+                android:text="0000" />
+
+
+            <EditText
+                android:id="@+id/edtOrderId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Transaction Reference ID*"
+                android:text="1234" />
+
+
+            <EditText
+                android:id="@+id/edtAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Amount*"
+                android:inputType="numberDecimal"
+                android:text="1.00" />
+
+
+            <EditText
+                android:id="@+id/edtPspId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PSP Generated ID" />
+
+            <EditText
+                android:id="@+id/edtNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Notes" />
+
+
+            <EditText
+                android:id="@+id/edtMinAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Minimum Amount" />
+
+            <EditText
+                android:id="@+id/edtCurrency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Currency" />
+
+
+            <EditText
+                android:id="@+id/edtRefId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Transaction Ref. URL" />
+
+
+            <EditText
+                android:id="@+id/edtDeepLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Generic DeepLink" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startTransactionClicked"
+        android:text="Start Transaction" />
+
+</LinearLayout>
