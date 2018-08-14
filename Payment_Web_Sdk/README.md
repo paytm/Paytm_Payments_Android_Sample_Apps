@@ -211,8 +211,10 @@ ANDROID
 	}
 
 2. To access OTP reading feature one must have SMS permission:
-	<uses-permission android:name="android.permission.READ_SMS"/>
-	<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+	
+	<uses¬permission android:name="android.permission.READ_SMS"/>
+	
+	<uses¬permission android:name="android.permission.RECEIVE_SMS"/>
 	
 	if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_SMS) != PackageManager.PERMISSION_GRANTED) {
 	
