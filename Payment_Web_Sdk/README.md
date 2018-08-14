@@ -201,6 +201,25 @@ ANDROID
 		
 		});
 
+# New Feature
+#### Web redirect merchant Android SDK with otp reading ability
+1. To access this feature upgrade to latest sdk via following gradle dependency in build.gradle file:
+	compile('com.paytm:pgplussdk:1.2.3') {
+
+		transitive = true;
+	
+	}
+
+2. To access OTP reading feature one must have SMS permission:
+	<uses-permission android:name="android.permission.READ_SMS"/>
+	<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+	
+	if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_SMS) != PackageManager.PERMISSION_GRANTED) {
+	
+	    ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.READ_SMS, Manifest.permission.RECEIVE_SMS}, 101);
+	    
+	}
+
 # Paytm_Android_App_Kit
 
 # SDK Documentation
