@@ -204,7 +204,7 @@ ANDROID
 # New Feature
 #### Web redirect merchant Android SDK with otp reading ability
 1. To access this feature upgrade to latest sdk via following gradle dependency in build.gradle file:
-	compile('com.paytm:pgplussdk:1.2.3') {
+	compile('com.paytm:pgplussdk:*.*.*') {
 
 		transitive = true;
 	
