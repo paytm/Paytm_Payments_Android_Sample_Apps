@@ -1,1 +1,1 @@
-
+# This app is deprecated. Please use OCL-QR-Scanner or PPSL-QR-Scanner as per your requirement.
