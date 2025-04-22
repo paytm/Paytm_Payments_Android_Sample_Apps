@@ -1,1 +1,1 @@
-# This app is deprecated. Please use OCL-QR-Scanner or PPSL-QR-Scanner as per your requirement.
+This app is deprecated. Please use 🔗 [OCL-QR-Scanner](https://github.com/paytm/Paytm_Payments_Android_Sample_Apps/tree/master/OCL-QR-Scanner) or 🔗 [PPSL-QR-Scanner](https://github.com/paytm/Paytm_Payments_Android_Sample_Apps/tree/master/PPSL-QR-Scanner) as per your requirement.
