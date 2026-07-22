@@ -219,7 +219,7 @@ ANDROID
 		transitive = true;
 	}
 	```
-	#### \*Note: Our latest SDK is 1.3.3
+	#### \*Note: Our latest SDK is 1.4.3
 
 2. To access OTP reading feature one must have SMS permission:
 	
@@ -276,7 +276,7 @@ Gradle Dependency:
 
 Command : `compile 'com.paytm:pgplussdk:*.*.*'`
 
-#### \*Note: Our latest SDK is 1.3.3
+#### \*Note: Our latest SDK is 1.4.3
 
 Note:
 1. If you have the Jar file please Remove the jar file and jar dependency from the project.
